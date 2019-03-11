@@ -1,7 +1,7 @@
 FROM php:7.2-fpm-alpine
 
 # Calculate download URL
-ENV VERSION 4.8.4
+ENV VERSION 4.8.5
 ENV URL https://files.phpmyadmin.net/phpMyAdmin/${VERSION}/phpMyAdmin-${VERSION}-all-languages.tar.xz
 ENV THEME_URL https://files.phpmyadmin.net/themes/fallen/0.7/fallen-0.7.zip
 LABEL version=$VERSION
